@@ -8,7 +8,7 @@ function Footer() {
             <div>
               <h3 className="text-2xl font-bold gradient-text mb-4">faizzz</h3>
               <p className="text-gray-400 leading-relaxed">
-                Full Stack Developer & UI/UX Designer yang berdedikasi untuk menciptakan pengalaman digital yang luar biasa.
+                Mahasiswa Aktif Universitas Qomaruddin
               </p>
             </div>
 

@@ -60,6 +60,17 @@ body.light {
   padding: 5rem 1.5rem;
 }
 
+/* Fix for sections to account for fixed header */
+section {
+  scroll-margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 5rem;
+  }
+}
+
 @keyframes float {
   0%, 100% { 
     transform: translateY(0px); 

@@ -1,7 +1,7 @@
 function Hero({ isDarkMode }) {
   try {
     return (
-      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden" data-name="hero" data-file="components/Hero.js">
+      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16" data-name="hero" data-file="components/Hero.js">
         {/* Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-72 h-72 gradient-gold rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-float"></div>

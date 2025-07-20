@@ -7,7 +7,7 @@ function Portfolio({ isDarkMode }) {
         image: document.querySelector('[data-portfolio-1]').src,
         technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
         liveUrl: 'https://example-ecommerce.com',
-        githubUrl: 'https://github.com/Faizzz-ezz'
+        githubUrl: 'https://www.instagram.com/al_tzyyy_/'
       },
       {
         title: 'Aplikasi Manajemen Tugas',
@@ -15,7 +15,7 @@ function Portfolio({ isDarkMode }) {
         image: document.querySelector('[data-portfolio-2]').src,
         technologies: ['Vue.js', 'Express', 'Socket.io', 'PostgreSQL'],
         liveUrl: 'https://example-taskmanager.com',
-        githubUrl: 'https://github.com/Faizzz-ezz'
+        githubUrl: 'https://www.instagram.com/al_tzyyy_/'
       },
       {
         title: 'Website Portofolio',
@@ -23,7 +23,7 @@ function Portfolio({ isDarkMode }) {
         image: document.querySelector('[data-portfolio-3]').src,
         technologies: ['React', 'Tailwind CSS', 'Framer Motion'],
         liveUrl: 'https://example-portfolio.com',
-        githubUrl: 'https://github.com/Faizzz-ezz'
+        githubUrl: 'https://www.instagram.com/al_tzyyy_/'
       },
       {
         title: 'Dashboard Cuaca',
@@ -31,7 +31,7 @@ function Portfolio({ isDarkMode }) {
         image: document.querySelector('[data-portfolio-4]').src,
         technologies: ['JavaScript', 'API Integration', 'Chart.js'],
         liveUrl: 'https://example-weather.com',
-        githubUrl: 'https://github.com/Faizzz-ezz'
+        githubUrl: 'https://www.instagram.com/al_tzyyy_/'
       }
     ];
 
@@ -104,7 +104,7 @@ function Portfolio({ isDarkMode }) {
           <div className="text-center mt-12">
             <p className={`mb-6 ${isDarkMode ? 'text-gray-400' : 'text-gray-700'}`}>Ingin melihat lebih banyak karya saya?</p>
             <a 
-              href="https://github.com/Faizzz-ezz" 
+              href="https://www.instagram.com/al_tzyyy_/" 
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold"
