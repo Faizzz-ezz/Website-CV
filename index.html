@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>faizzz - Full Stack Developer & UI/UX Designer</title>
+    <meta name="description" content="Portfolio faizzz - Full Stack Developer dan UI/UX Designer dengan pengalaman 5+ tahun dalam pengembangan web modern">
+    <meta name="keywords" content="full stack developer, UI/UX designer, web developer, React, Node.js, portfolio">
+    <meta property="og:title" content="faizzz - Full Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Portfolio faizzz - Full Stack Developer dan UI/UX Designer dengan pengalaman 5+ tahun dalam pengembangan web modern">
+    <meta name="twitter:title" content="faizzz - Full Stack Developer & UI/UX Designer">
+    <meta name="twitter:description" content="Portfolio faizzz - Full Stack Developer dan UI/UX Designer dengan pengalaman 5+ tahun dalam pengembangan web modern">
+    
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react@18/umd/react.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://resource.trickle.so/vendor_lib/unpkg/@babel/standalone/babel.min.js"></script>
+    <link href="https://resource.trickle.so/vendor_lib/unpkg/lucide-static@0.516.0/font/lucide.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style type="text/tailwindcss">
+      @layer utilities {
+        @keyframes slideInLeft {
+          from { opacity: 0; transform: translateX(-50px); }
+          to { opacity: 1; transform: translateX(0); }
+        }
+        
+        @keyframes slideInRight {
+          from { opacity: 0; transform: translateX(50px); }
+          to { opacity: 1; transform: translateX(0); }
+        }
+        
+        @keyframes slideInUp {
+          from { opacity: 0; transform: translateY(50px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        
+        .animate-slide-in-left {
+          animation: slideInLeft 0.8s ease-out forwards;
+        }
+        
+        .animate-slide-in-right {
+          animation: slideInRight 0.8s ease-out forwards;
+        }
+        
+        .animate-slide-in-up {
+          animation: slideInUp 0.8s ease-out forwards;
+        }
+        
+        .animate-fade-in {
+          animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        .hover-glow:hover {
+          box-shadow: 0 0 20px rgba(251, 191, 36, 0.4);
+        }
+        
+        .hover-scale:hover {
+          transform: scale(1.05);
+        }
+      }
+    </style>
+    
+    <link href="style.css" rel="stylesheet">
+    
+    <img data-hero src="https://app.trickle.so/storage/public/images/usr_129f961570000001/d91f7686-c7f1-4e74-bda5-90d9e0041284.jpeg" style="display:none;">
+    <img data-portfolio-1 src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop" style="display:none;">
+    <img data-portfolio-2 src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=300&fit=crop" style="display:none;">
+    <img data-portfolio-3 src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=300&fit=crop" style="display:none;">
+    <img data-portfolio-4 src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=300&fit=crop" style="display:none;">
+</head>
+<body>
+    <div id="root"></div>
+    
+    <script type="text/babel" src="config/settings.js"></script>
+    <script type="text/babel" src="components/Header.js"></script>
+    <script type="text/babel" src="components/Hero.js"></script>
+    <script type="text/babel" src="components/About.js"></script>
+    <script type="text/babel" src="components/Skills.js"></script>
+    <script type="text/babel" src="components/Experience.js"></script>
+    <script type="text/babel" src="components/Education.js"></script>
+    <script type="text/babel" src="components/Portfolio.js"></script>
+    <script type="text/babel" src="components/Contact.js"></script>
+    <script type="text/babel" src="components/Footer.js"></script>
+    <script type="text/babel" src="components/AdminDashboard.js"></script>
+    <script type="text/babel" src="components/ScrollAnimations.js"></script>
+    <script type="text/babel" src="utils/sampleData.js"></script>
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
